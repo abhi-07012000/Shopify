@@ -2,14 +2,15 @@ import React from "react";
 import "./Navbar.css";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { NavLink} from "react-router-dom";
+import ShopifyLogo from "../../Assets/shopify-logo.png";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand my-1 ms-2" to="/">
-            SHOPIFY
+          <NavLink className="navbar-brand ms-2" to="/">
+            <img  src={ShopifyLogo} alt="ShopIfy" />
           </NavLink>
           <button
             className="navbar-toggler"

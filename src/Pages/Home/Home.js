@@ -1,8 +1,11 @@
 import React from 'react'
+import Coursel from '../../UI/Coursel/Coursel'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Coursel />
+    </>
   )
 }
 

@@ -1,9 +1,13 @@
-.navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
+.navbar{
+    padding: 0.2rem 0;
+}
+.navbar-brand img{
+    width: 5rem;
 }
 
 .nav-item{
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
+
 
