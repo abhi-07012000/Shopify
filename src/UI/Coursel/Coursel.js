@@ -24,7 +24,7 @@ const Coursel = () => {
         </div>
       </div>
     </div></NavLink>
-       
+    <NavLink to="womens">
         <div className="carousel-item">
           <div className="row">
             <div className="col">
@@ -34,8 +34,9 @@ const Coursel = () => {
               <img src={WomensImage} className="  coursel-image d-block w-50" alt="..." />
             </div>
           </div>
-        </div>
-        <div className="carousel-item active">
+        </div></NavLink>
+        <NavLink to="electronics">
+        <div className="carousel-item">
           <div className="row">
             <div className="col">
               <h1 className="text-Align">Electronics</h1>
@@ -44,7 +45,7 @@ const Coursel = () => {
               <img src={ElectronicImage} className=" coursel-image d-block w-50" alt="..." />
             </div>
           </div>
-        </div>
+        </div></NavLink>
       </div>
       <button
         className="carousel-control-prev"
