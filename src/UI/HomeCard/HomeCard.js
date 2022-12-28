@@ -9,7 +9,7 @@ const HomeCard = (props) => {
         <div className="row">
           {props.headings.map((heading) => {
             return (
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-xs-12">
                 <div className="card h-100">
                   <div className="card-header">
                     <img className="w-75" src={CardImage} alt="" />
