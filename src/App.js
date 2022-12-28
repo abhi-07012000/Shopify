@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './UI/Navbar/Navbar';
+import Navbar from './HomeUI/Navbar/Navbar';
 import {Routes,Route} from "react-router-dom";
 import Home from "./Pages/Home/Home"
 import Mens from "./Pages/Mens/Mens"
@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Electronics from './Pages/Electronics/Electronics';
 import Cart from './Pages/Cart/Cart';
+import Footer from './HomeUI/Footer/Footer';
 
 function App() {
   return (<>
@@ -21,6 +22,7 @@ function App() {
         <Route path='register' element={<Register />} />
         <Route path='cart' element={<Cart />}/>
     </Routes>
+    <Footer />
   </>
   );
 }

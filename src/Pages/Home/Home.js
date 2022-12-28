@@ -1,8 +1,8 @@
 import React from 'react'
-import Heading from '../../UI/Heading/Heading'
-import Coursel from '../../UI/Coursel/Coursel'
-import HomeCard from '../../UI/HomeCard/HomeCard'
-import Sponsers from '../../UI/Sponsers/Sponsers'
+import Heading from '../../HomeUI/Heading/Heading'
+import Coursel from '../../HomeUI/Coursel/Coursel'
+import HomeCard from '../../HomeUI/HomeCard/HomeCard'
+import Sponsers from '../../HomeUI/Sponsers/Sponsers'
 
 const Home = () => {
   return (
