@@ -6,7 +6,7 @@ const HomeCard = (props) => {
   return (
     <>
       <section className="review">
-        <div className="row">
+        <div className="row p-5">
           {props.headings.map((heading) => {
             return (
               <div className="col-lg-4 col-xs-12">
