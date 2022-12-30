@@ -9,7 +9,7 @@ const Coursel = () => {
   return (
     <div
       id="carouselExampleControls"
-      className="carousel slide bg-dark align-center"
+      className="carousel slide bg-primary align-center"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">

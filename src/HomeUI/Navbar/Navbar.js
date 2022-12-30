@@ -7,7 +7,7 @@ import ShopifyLogo from "../../Assets/shopify-logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-primary bg-primary" data-bs-theme="--bs-primary-border-subtle">
         <div className="container-fluid">
           <NavLink className="navbar-brand ms-2" to="/">
             <img  src={ShopifyLogo} alt="ShopIfy" />
